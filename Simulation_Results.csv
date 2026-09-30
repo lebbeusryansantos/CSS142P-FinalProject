@@ -1,0 +1,7 @@
+Scenario,Free_Tier_Avg_Wait_sec,Paid_Tier_Avg_Wait_sec,Paid_Tier_SLA_Breach_Rate_%
+"Baseline (2 GPUs, FCFS) - Normal Peak",6.33,6.24,0.13
+"Alternative 1 (2 GPUs, Priority) - Normal Peak",7.33,2.23,0.0
+"Alternative 2 (3 GPUs, FCFS) - Normal Peak",0.82,0.8,0.0
+"Baseline (2 GPUs, FCFS) - Stress Test (+20%)",20.51,20.52,N/A
+"Alternative 1 (2 GPUs, Priority) - Stress Test (+20%)",24.8,3.17,N/A
+"Alternative 2 (3 GPUs, FCFS) - Stress Test (+20%)",1.53,1.57,N/A
